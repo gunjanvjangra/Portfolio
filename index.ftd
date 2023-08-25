@@ -171,15 +171,16 @@ firstTitle: I'm
 secondTitle: Gunjan V. Jangra,
 
 -- lib.hero-ui-base-text-wrapper:
-firstTitle: frontend
-secondTitle: developer
+firstTitle: Sophomore,
+secondTitle: Explorer
 
 -- lib.hero-ui-base-text-wrapper:
-firstTitle: and
-secondTitle: explorer.
+firstTitle: and a
+secondTitle: Learner.
 
--- ftd.text: I design and create functional and beautiful applications with passion and a focus on user experience and high quality.
+-- ftd.text: "Tech Explorer: Unveiling Horizons, Embracing Knowledge"
 role: $lib.home-description-responsive-typography
+
 margin-top.px: 10
 max-width.fixed.px: 700
 min-width.fixed.px: 450
@@ -189,11 +190,11 @@ white-space: normal
 spacing.fixed.px: 10
 
 -- button.secondary:
-title: Hire me
+title: Know More about me.
 link: mailto:gunjanvaishnavijangra@gmail.com
 
 -- button.primary:
-title: Schedule a Meeting
+title: Explore the Explorer
 link: YOUR_MEETING_HANLDE
 isNewTab: true
 
