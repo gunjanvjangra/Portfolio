@@ -41,7 +41,7 @@ cta-item2-link: /portfolio/resume
 ;; -----------------------------------------------------
 
 -- toast.stack:
-title: Check out the Github Account!!
+title: Hey, check the GITHUB!
 link: https://github.com/gunjanvjangra
 
 ;; -----------------------------------------------------
@@ -55,105 +55,6 @@ link: https://github.com/gunjanvjangra
 
 -- ftd.container:
 padding-bottom.px: 20
-
-;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Mobile view starts *****
-;; ------------------------------------------
-
--- ftd.mobile:
--- ftd.column:
-margin-top.px: 30
-spacing.fixed.px: 20
-
-
--- ftd.image:
-src: $assets.files.images.developer.png
-width.fixed.px: 250
-align-self: center
-
--- ftd.column:
-spacing.fixed.px: 20
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: I'm
-secondTitle: Gunjan V. Jangra,
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: Sophomore,
-secondTitle: Explorer
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: and a
-secondTitle: Learner.
-
--- ftd.text: "Tech Explorer: Unveiling Horizons, Embracing Knowledge"
-role: $lib.home-description-responsive-typography
-margin-top.px: 10
-max-width.fixed.px: 700
-min-width.fixed.px: 450
-white-space: normal
-
--- ftd.row:
-spacing.fixed.px: 10
-
--- button.secondary:
-title: MAIL!
-link: mailto:gunjanvaishnavijangra@gmail.com
-
--- button.primary:
-title: Explore the Explorer
-link: YOUR_MEETING_HANLDE
-isNewTab: true
-
--- end: ftd.row
-
-
-;; --------------------------------
-;; ***** PORTFOLIO Socials starts *****
-;; --------------------------------
-
--- ftd.row:
-spacing.fixed.px: 10
-
--- social.social-button-wrapper:
-link: https://linkedin.com/in/gunjanvaishnavijangra/
-image: $assets.files.images.linkedin.png
-
--- social.social-button-wrapper:
-link: https://twitter.com/gunjanvjangra
-image: $assets.files.images.twitter.png
-
--- social.social-button-wrapper:
-link: https://github.com/gunjanvjangra
-image: $assets.files.images.github.png
-
--- social.social-button-wrapper:
-link: https://instagram.com/gunjanvjangra/
-image: $assets.files.images.instagram.png
-
--- social.social-button-wrapper:
-link: mailto:gunjanvaishnavijangra@gmail.com
-image: $assets.files.images.mail.png
-
--- end: ftd.row
-
-;; --------------------------------
-;; ***** PORTFOLIO Socials ends *****
-;; --------------------------------
-
--- end: ftd.column
-
--- end: ftd.column
-
--- end: ftd.mobile
-
-;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Mobile view ends *****
-;; ------------------------------------------
-
-;; ----------------------------------------------------------------
-;; ----------------------------------------------------------------
-
 
 ;; ------------------------------------------
 ;; ***** PORTFOLIO Hero UI Desktop view starts *****
@@ -176,11 +77,10 @@ secondTitle: Explorer
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: and a
-secondTitle: Learner.
+secondTitle: Keen Learner.
 
 -- ftd.text: "Tech Explorer: Unveiling Horizons, Embracing Knowledge"
 role: $lib.home-description-responsive-typography
-
 margin-top.px: 10
 max-width.fixed.px: 700
 min-width.fixed.px: 450
@@ -190,7 +90,7 @@ white-space: normal
 spacing.fixed.px: 10
 
 -- button.secondary:
-title: MAIL!
+title: Contact
 link: mailto:gunjanvaishnavijangra@gmail.com
 
 -- button.primary:
@@ -245,6 +145,104 @@ width.fixed.px: 400
 
 ;; ------------------------------------------
 ;; ***** PORTFOLIO Hero UI Desktop view ends *****
+;; ------------------------------------------
+
+;; -----------------------------------------------------
+;; -----------------------------------------------------
+
+;; ------------------------------------------
+;; ***** PORTFOLIO Hero UI Mobile view starts *****
+;; ------------------------------------------
+
+-- ftd.mobile:
+-- ftd.column:
+margin-top.px: 30
+spacing.fixed.px: 20
+
+
+-- ftd.image:
+src: $assets.files.images.developer.png
+width.fixed.px: 250
+align-self: center
+
+-- ftd.column:
+spacing.fixed.px: 20
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: I'm
+secondTitle: Gunjan V. Jangra,
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: Sophomore,
+secondTitle: Explorer
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: and a
+secondTitle: Keen Learner.
+
+-- ftd.text: "Tech Explorer: Unveiling Horizons, Embracing Knowledge"
+role: $lib.home-description-responsive-typography
+margin-top.px: 10
+max-width.fixed.px: 700
+min-width.fixed.px: 450
+white-space: normal
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- button.secondary:
+title: Contact
+link: mailto:gunjanvaishnavijangra@gmail.com
+
+-- button.primary:
+title: Explore the Explorer
+link: YOUR_MEETING_HANLDE
+isNewTab: true
+
+-- end: ftd.row
+
+
+;; --------------------------------
+;; ***** PORTFOLIO Socials starts *****
+;; --------------------------------
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- social.social-button-wrapper:
+link: https://linkedin.com/in/gunjanvaishnavijangra/
+image: $assets.files.images.linkedin.png
+
+-- social.social-button-wrapper:
+link: https://twitter.com/gunjanvjangra
+image: $assets.files.images.twitter.png
+
+-- social.social-button-wrapper:
+link: https://github.com/gunjanvjangra
+image: $assets.files.images.github.png
+
+-- social.social-button-wrapper:
+link: https://instagram.com/gunjanvjangra/
+image: $assets.files.images.instagram.png
+
+-- social.social-button-wrapper:
+link: mailto:gunjanvaishnavijangra@gmail.com
+image: $assets.files.images.mail.png
+
+-- end: ftd.row
+
+;; --------------------------------
+;; ***** PORTFOLIO Socials ends *****
+;; --------------------------------
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.mobile
+
+;; ------------------------------------------
+;; ***** PORTFOLIO Hero UI Mobile view ends *****
 ;; ------------------------------------------
 
 -- end: ftd.container
