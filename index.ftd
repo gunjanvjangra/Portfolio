@@ -41,7 +41,7 @@ cta-item2-link: /portfolio/resume
 ;; -----------------------------------------------------
 
 -- toast.stack:
-title: Check out the Github Account!!
+title: Hey, check the GITHUB!
 link: https://github.com/gunjanvjangra
 
 ;; -----------------------------------------------------
@@ -55,6 +55,100 @@ link: https://github.com/gunjanvjangra
 
 -- ftd.container:
 padding-bottom.px: 20
+
+;; ------------------------------------------
+;; ***** PORTFOLIO Hero UI Desktop view starts *****
+;; ------------------------------------------
+
+-- ftd.desktop:
+-- ftd.row:
+margin-top.px: 60
+spacing.fixed.px: 100
+-- ftd.column:
+spacing.fixed.px: 20
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: I'm
+secondTitle: Gunjan V. Jangra,
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: Sophomore,
+secondTitle: Explorer
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: and a
+secondTitle: Keen Learner.
+
+-- ftd.text: "Tech Explorer: Unveiling Horizons, Embracing Knowledge"
+role: $lib.home-description-responsive-typography
+margin-top.px: 10
+max-width.fixed.px: 700
+min-width.fixed.px: 450
+white-space: normal
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- button.secondary:
+title: Contact
+link: mailto:gunjanvaishnavijangra@gmail.com
+
+-- button.primary:
+title: Explore the Explorer
+link: YOUR_MEETING_HANLDE
+isNewTab: true
+
+-- end: ftd.row
+
+;; --------------------------------
+;; ***** PORTFOLIO Socials starts *****
+;; --------------------------------
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- social.social-button-wrapper:
+link: https://linkedin.com/in/gunjanvaishnavijangra/
+image: $assets.files.images.linkedin.png
+
+-- social.social-button-wrapper:
+link: https://twitter.com/gunjanvjangra
+image: $assets.files.images.twitter.png
+
+-- social.social-button-wrapper:
+link: https://github.com/gunjanvjangra
+image: $assets.files.images.github.png
+
+-- social.social-button-wrapper:
+link: https://instagram.com/gunjanvjangra/
+image: $assets.files.images.instagram.png
+
+-- social.social-button-wrapper:
+link: mailto:gunjanvaishnavijangra@gmail.com
+image: $assets.files.images.mail.png
+
+-- end: ftd.row
+
+;; --------------------------------
+;; ***** PORTFOLIO Socials ends *****
+;; --------------------------------
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $assets.files.images.developer.png
+width.fixed.px: 400
+
+-- end: ftd.row
+
+-- end: ftd.desktop
+
+;; ------------------------------------------
+;; ***** PORTFOLIO Hero UI Desktop view ends *****
+;; ------------------------------------------
+
+;; -----------------------------------------------------
+;; -----------------------------------------------------
 
 ;; ------------------------------------------
 ;; ***** PORTFOLIO Hero UI Mobile view starts *****
@@ -84,7 +178,7 @@ secondTitle: Explorer
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: and a
-secondTitle: Learner.
+secondTitle: Keen Learner.
 
 -- ftd.text: "Tech Explorer: Unveiling Horizons, Embracing Knowledge"
 role: $lib.home-description-responsive-typography
@@ -97,7 +191,7 @@ white-space: normal
 spacing.fixed.px: 10
 
 -- button.secondary:
-title: Know More about me.
+title: Contact
 link: mailto:gunjanvaishnavijangra@gmail.com
 
 -- button.primary:
@@ -149,101 +243,6 @@ image: $assets.files.images.mail.png
 
 ;; ------------------------------------------
 ;; ***** PORTFOLIO Hero UI Mobile view ends *****
-;; ------------------------------------------
-
-;; ----------------------------------------------------------------
-;; ----------------------------------------------------------------
-
-
-;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Desktop view starts *****
-;; ------------------------------------------
-
--- ftd.desktop:
--- ftd.row:
-margin-top.px: 60
-spacing.fixed.px: 100
--- ftd.column:
-spacing.fixed.px: 20
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: I'm
-secondTitle: Gunjan V. Jangra,
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: frontend
-secondTitle: developer
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: and
-secondTitle: explorer.
-
--- ftd.text: I design and create functional and beautiful applications with passion and a focus on user experience and high quality.
-role: $lib.home-description-responsive-typography
-margin-top.px: 10
-max-width.fixed.px: 700
-min-width.fixed.px: 450
-white-space: normal
-
--- ftd.row:
-spacing.fixed.px: 10
-
--- button.secondary:
-title: Hire me
-link: mailto:gunjanvaishnavijangra@gmail.com
-
--- button.primary:
-title: Schedule a Meeting
-link: YOUR_MEETING_HANLDE
-isNewTab: true
-
--- end: ftd.row
-
-;; --------------------------------
-;; ***** PORTFOLIO Socials starts *****
-;; --------------------------------
-
--- ftd.row:
-spacing.fixed.px: 10
-
--- social.social-button-wrapper:
-link: https://linkedin.com/in/gunjanvaishnavijangra/
-image: $assets.files.images.linkedin.png
-
--- social.social-button-wrapper:
-link: https://twitter.com/gunjanvjangra
-image: $assets.files.images.twitter.png
-
--- social.social-button-wrapper:
-link: https://github.com/gunjanvjangra
-image: $assets.files.images.github.png
-
--- social.social-button-wrapper:
-link: https://instagram.com/gunjanvjangra/
-image: $assets.files.images.instagram.png
-
--- social.social-button-wrapper:
-link: mailto:gunjanvaishnavijangra@gmail.com
-image: $assets.files.images.mail.png
-
--- end: ftd.row
-
-;; --------------------------------
-;; ***** PORTFOLIO Socials ends *****
-;; --------------------------------
-
--- end: ftd.column
-
--- ftd.image:
-src: $assets.files.images.developer.png
-width.fixed.px: 400
-
--- end: ftd.row
-
--- end: ftd.desktop
-
-;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Desktop view ends *****
 ;; ------------------------------------------
 
 -- end: ftd.container
