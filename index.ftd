@@ -97,7 +97,7 @@ white-space: normal
 spacing.fixed.px: 10
 
 -- button.secondary:
-title: Know More about me.
+title: MAIL!
 link: mailto:gunjanvaishnavijangra@gmail.com
 
 -- button.primary:
@@ -190,7 +190,7 @@ white-space: normal
 spacing.fixed.px: 10
 
 -- button.secondary:
-title: Know More about me.
+title: MAIL!.
 link: mailto:gunjanvaishnavijangra@gmail.com
 
 -- button.primary:
