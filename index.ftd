@@ -41,7 +41,7 @@ cta-item2-link: /portfolio/resume
 ;; -----------------------------------------------------
 
 -- toast.stack:
-title: Hello, I'm aspiring fastn developer based in India
+title: Check out the Github Account!!
 link: https://github.com/gunjanvjangra
 
 ;; -----------------------------------------------------
@@ -76,17 +76,17 @@ spacing.fixed.px: 20
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: I'm
-secondTitle: Gunjan Vaishnavi Jangra,
+secondTitle: Gunjan V. Jangra,
 
 -- lib.hero-ui-base-text-wrapper:
-firstTitle: frontend
-secondTitle: developer
+firstTitle: Sophomore,
+secondTitle: Explorer
 
 -- lib.hero-ui-base-text-wrapper:
-firstTitle: and
-secondTitle: explorer.
+firstTitle: and a
+secondTitle: Learner.
 
--- ftd.text: I design and create functional and beautiful applications with passion and a focus on user experience and high quality.
+-- ftd.text: "Tech Explorer: Unveiling Horizons, Embracing Knowledge"
 role: $lib.home-description-responsive-typography
 margin-top.px: 10
 max-width.fixed.px: 700
@@ -97,11 +97,11 @@ white-space: normal
 spacing.fixed.px: 10
 
 -- button.secondary:
-title: Hire me
+title: Know More about me.
 link: mailto:gunjanvaishnavijangra@gmail.com
 
 -- button.primary:
-title: Schedule a Meeting
+title: Explore the Explorer
 link: YOUR_MEETING_HANLDE
 isNewTab: true
 
@@ -168,7 +168,7 @@ spacing.fixed.px: 20
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: I'm
-secondTitle: Gunjan Vaishnavi Jangra,
+secondTitle: Gunjan V. Jangra,
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: frontend
