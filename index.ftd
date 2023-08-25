@@ -190,7 +190,7 @@ white-space: normal
 spacing.fixed.px: 10
 
 -- button.secondary:
-title: MAIL!.
+title: MAIL!
 link: mailto:gunjanvaishnavijangra@gmail.com
 
 -- button.primary:
