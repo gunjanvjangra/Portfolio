@@ -29,7 +29,7 @@ header-item2-link: /portfolio/about
 header-item3-link: /portfolio/blogs
 header-item4-link: /portfolio/projects
 cta-item2: Resume
-cta-item2-link: /portfolio/resume
+link: https://drive.google.com/file/d/1A9r0AUnxn2Pi_UUL_JPbzy-XmghAjeMP/view?usp=drive_link
 
 ;; ----------------------------------------------------------------
 ;; ***** PORTFOLIO Header ends *****
